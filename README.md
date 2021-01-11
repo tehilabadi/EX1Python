@@ -52,13 +52,13 @@ contains the location and the id key of the node<br>
 this class represents a weighted directional graph.<br>
 contains dictionary of the nodes, dictionary of all the edges from each node, and dictionary of all the edges to each node in the graph.<br>
 <br>
-__def __init__(self):__
+__def __init __(self):__<br>
 this method initilizes a new directed weighted graph.<br>
 <br>
-__def v_size(self) -> int:__
+__def v_size(self) -> int:__<br>
 this method returns the number of nodes in the graph.<br>
 <br>
-__ def e_size(self) -> int:__
+__def e_size(self) -> int:__<br>
 this method returns the number of edges in the graph<br>
 <br>
 __def get_all_v(self) -> dict:__
